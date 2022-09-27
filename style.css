@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: skyblue;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#point{
+    font-size: 10rem;
+    color: white;
+}
+
+
+.fruit{
+    width: 100px;
+    height: 100px;
+    background-image: url(apple.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
